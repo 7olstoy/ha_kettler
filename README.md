@@ -32,7 +32,6 @@ Allows you to connect Redmond SkyKettle, SkyCooker and SkyHeat to your Home Assi
 * RSP-103S
 * RCH-7001S
 
-
 BAD NEWS about my attempt to use BLEAK (https://github.com/hbldh/bleak) async libriry:   https://github.com/home-assistant/core/issues/37593
 
 After every update remove integration from HA and then add it again! После обновления модуля лучше удалить интеграцию из интерфейса HA и заново добавить ее.
