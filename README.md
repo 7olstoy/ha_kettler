@@ -116,7 +116,7 @@ this configuration works out of the box with hassio. In any other configuration,
 ***
 
 
-[exampleimg1]: 01.jpg
-[exampleimg2]: 02.jpg
-[exampleimg3]: 03.jpg
-[exampleimg4]: 04.jpg
+[exampleimg1]: docs/01.jpg
+[exampleimg2]: docs/02.jpg
+[exampleimg3]: docs/03.jpg
+[exampleimg4]: docs/04.jpg
