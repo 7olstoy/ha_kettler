@@ -17,6 +17,7 @@ Allows you to connect Redmond SkyKettle, SkyCooker and SkyHeat to your Home Assi
 * RK-G212S
 * RK-G240S
 * RK-M216S
+* RK-M216S-E
 
 *Multi Cookers:*
 * RMC-M800S
@@ -31,16 +32,22 @@ Allows you to connect Redmond SkyKettle, SkyCooker and SkyHeat to your Home Assi
 * RSP-103S
 * RCH-7001S
 
----
-**!!!ATTENTION!!!**
-
-After every update remove integration from HA and then add it again! После обновления модуля лучше удалить интеграцию из интерфейса HA и заново добавить ее.
 
 BAD NEWS about my attempt to use BLEAK (https://github.com/hbldh/bleak) async libriry:   https://github.com/home-assistant/core/issues/37593
 
+After every update remove integration from HA and then add it again! После обновления модуля лучше удалить интеграцию из интерфейса HA и заново добавить ее.
+
+**!!!WARNING!!!** **!!!ПРЕДУПРЕЖДЕНИЕ!!!**
+
+Development has been paused because I have no REDMOND devices left. For the last year I have been writing code "blindly" without debugging and without any validation. Use it at your own risk.
+
+Разработка была приостановлена, так как у меня не осталось ни одного устройства REDMOND. Последний год разработка велась "вслепую", без отладки и без проверки. Используйте на свой собственный страх и риск.
+
 **What's new:**
 
-2021/01/27 Add multi-device support (for tests).
+2021/08/04 fixed the bug https://github.com/mavrikkk/ha_kettler/issues/78.
+
+2021/01/27 Add multi-device support (for tests, but without success).
 
 2020/10/13 Add support for SkyHeat RCH-4529S (RFS-HPL001).
 
