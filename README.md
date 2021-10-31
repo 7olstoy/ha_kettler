@@ -92,12 +92,26 @@ key | description
 **scan_interval (Optional)** | The polling interval in seconds. The default is 60. Please note that at Rasberberry it led to a load on the module and periodic dumps. You can experimentally set the time interval that suits you. (Время между опросами BLE устройства в секундах. По умолчанию 60 секунд. Учтите, что на Raspberry PI  это приводило к нагрузке на модуль и периодическим отвалам. Экспериментальным путем можете установить устраивающий вас промежуток времени.)
 
 
-  
-**Installation instructions**
+## Installation
+### Install through HACS:
 
-<p>After installation, in the UI go to the settings page, then to integrations. There click/tap on the plus button and select Redmond SkyKettle integration. Fill all the fields. No more need to reboot. You must see new inactive water heater, sensor and light elements. Hold down the button on the kettle until the LEDs flash rapidly. Turn on redmondauthorize switch.
+Add a custom repository in HACS pointed to https://github.com/mavrikkk/ha_kettler
 
-(После установки, в пользовательском интерфейсе зайдите на старницу настроек, затем в Интеграции. Там нажмите на кнопку со знаком "+" и выберите интеграцию Redmond SkyKettle. Заполните все поля. Больше нет нужды в перезагрузке. Вы должны увидеть новые неактивные элементы water heater, sensor и light. Удерживайте кнопку на чайнике до тех пор, пока светодиоды не начнут часто мигать. Включите переключатель redmondauthorize. ).</p>
+The new integration for ready4sky should appear under your integrations tab.
+
+Click Install and restart Home Assistant.
+
+### Install manually:
+
+Copy the contents found in https://github.com/mavrikkk/ha_kettler/tree/master/custom_components/ready4sky to your custom_components folder in Home Assistant.
+
+Restart Home Assistant.
+_____________________________________________________________________________________________________________________________
+
+After installation, go to the settings > integrations > plus > ready4sky.
+Fill all the fields. No more need to reboot. You must see new inactive water heater, sensor and light elements. Hold down the button on the kettle until the LEDs flash rapidly. Turn on redmondauthorize switch.
+
+(После установки, в пользовательском интерфейсе зайдите на старницу настроек, затем в Интеграции. Там нажмите на кнопку со знаком "+" и выберите интеграцию Redmond SkyKettle. Заполните все поля. Больше нет нужды в перезагрузке. Вы должны увидеть новые неактивные элементы water heater, sensor и light. Удерживайте кнопку на чайнике до тех пор, пока светодиоды не начнут часто мигать. Включите переключатель redmondauthorize. ).
 
 
 **WARNING**
